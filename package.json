@@ -1,4 +1,25 @@
 {
+  "name": "react-website",
+  "version": "1.0.0",
+  "description" : "A simple website built with React",
+  "engines": {
+    "node": ">=9.x",
+    "npm": ">=5.x",
+    "yarn": ">=1.x.x"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "build": "parcel build ./src/index.html",
+    "start": "parcel ./src/index.html -p 133"
+  },
+  "author": "A. Laszlo Lazuer",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "reactjs",
+    "styled-components",
+    "website"
+  ],
   "dependencies": {
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
